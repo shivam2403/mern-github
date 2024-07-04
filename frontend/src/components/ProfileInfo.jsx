@@ -85,7 +85,7 @@ const ProfileInfo = ({userProfile}) => {
 				{userProfile?.email && (
 					<div className='my-2'>
 						<p className='text-gray-600 font-bold text-sm'>Email address</p>
-						<p className=''>{userProfile.email}</p>
+						<p className=''>{userProfile?.email}</p>
 					</div>
 				)}
 
